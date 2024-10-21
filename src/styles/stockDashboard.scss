@@ -1,0 +1,28 @@
+.stock-dashboard {
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .filter {
+      display: flex;
+      font-size: large;
+      font-weight: 500;
+      input {
+        padding: 5px;
+        width: 50px;
+      }
+    }
+
+    .select {
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+  }
